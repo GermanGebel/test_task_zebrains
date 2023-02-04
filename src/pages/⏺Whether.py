@@ -13,4 +13,4 @@ res = json.loads(res.text)
 
 # to do нарисовать правильно график
 df = pd.DataFrame.from_dict(res['hourly'])
-st.line_chart(df)
+st.line_chart(df, x='time', y='temperature_2m')
