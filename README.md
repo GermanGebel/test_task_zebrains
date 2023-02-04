@@ -8,4 +8,7 @@
 По валютам нашел сайт для данных (https://exchangerate.host/#/docs)
 
 ## Запуск
+```
+cd src
 streamlit run ⏺Main.py --server.port 5000
+```
