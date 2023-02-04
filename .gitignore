@@ -1,0 +1,7 @@
+.idea
+models/*
+!.dvc
+__pycache__
+.streamlit/*
+data/*
+!data/*.dvc
